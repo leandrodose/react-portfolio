@@ -15,8 +15,8 @@ function App () {
   const theme = createMuiTheme({
     palette:{
       type: darkMode ? "dark": "light",
-      primary:{main:"#00000"},
-      secondary:{main:"#616161"}
+      primary:{main:"#616161"}, 
+      secondary:{main:"#616161"} 
     }
   })
   const handleDarkMode = ()=>{
@@ -31,20 +31,16 @@ function App () {
       [theme.breakpoints.up("md")]:{textAlign:"left"}
     },
     offset: theme.mixins.toolbar,
-    header:{
-        backgroundColor:"#6e6e6e",
-        color:"black",
-    }
   }));
   
   const classes = useStyles();
 
   return (
-    <div /* className={classes.root} */ >
+    <div  >
       <CssBaseline/>
       <ThemeProvider theme = {theme}> 
-        <Paper  elevation={10}> 
-          <AppBar position="sticky" /* className={classes.header}*/ color="secondary"  elevation={5}  > 
+        <Paper elevation={10}> 
+          <AppBar position="sticky"  color="secondary"   elevation={5}  > 
               <Toolbar>
                   <Typography variant="h4" className={classes.title}  >
                     {Data.personal.nombre} {Data.personal.apellido}

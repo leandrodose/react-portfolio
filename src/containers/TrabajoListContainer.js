@@ -1,5 +1,6 @@
 import React from 'react';
 import Trabajo from '../components/Trabajo';
+import {Typography} from '@material-ui/core';
 
 const TrabajoListContainer = ({datos}) => {
     
@@ -8,7 +9,9 @@ const TrabajoListContainer = ({datos}) => {
     );
     return (
         <div>
-            {arrayToComponents(datos)}
+            <Typography component={'span'} variant="body1">
+                    {arrayToComponents(datos)}
+            </Typography>
         </div>
     );
 };

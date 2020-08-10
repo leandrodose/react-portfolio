@@ -32,11 +32,11 @@ const CVContainer =  ({datos:{contacto,objetivo,social,educacional,laboral,idiom
                     </Grid>
                 </Grid>
                 <Grid item sm={12} md={8}>
-                    <Grid container spacing={3}>
+                    <Grid container spacing={3} >
                         <Grid item xs={12}>
-                            <Accordion elevation={5} >
+                            <Accordion elevation={5}  >
                                 <AccordionSummary  expandIcon={<ExpandMoreIcon />}    >
-                                    <Typography variant="subtitle2" >
+                                    <Typography   variant="subtitle1" >
                                         FORMACIÓN
                                     </Typography>
                                 </AccordionSummary>
@@ -48,7 +48,7 @@ const CVContainer =  ({datos:{contacto,objetivo,social,educacional,laboral,idiom
                         <Grid item xs={12}>
                             <Accordion elevation={5} >
                                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                                    <Typography variant="subtitle2" >
+                                    <Typography variant="subtitle1" >
                                         IDIOMAS
                                     </Typography>
                                     
@@ -61,10 +61,9 @@ const CVContainer =  ({datos:{contacto,objetivo,social,educacional,laboral,idiom
                         <Grid item xs={12}>
                             <Accordion elevation={5} >
                                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                                    <Typography variant="subtitle2" >
+                                    <Typography variant="subtitle1" >
                                         EXPERIENCIA LABORAL
                                     </Typography>
-                                    
                                 </AccordionSummary>
                                 <AccordionDetails>
                                     <TrabajoListContainer datos={laboral}/>
@@ -74,24 +73,21 @@ const CVContainer =  ({datos:{contacto,objetivo,social,educacional,laboral,idiom
                         <Grid item xs={12}>
                             <Accordion elevation={5} >  
                                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                                    <Typography variant="subtitle2" >
+                                    <Typography variant="subtitle1" >
                                         CURSOS
                                     </Typography>
-                                    
                                 </AccordionSummary>
                                 <AccordionDetails>
                                     <CursoListContainer datos={cursos}/>
                                 </AccordionDetails>
                             </Accordion>
                         </Grid>
-                        
                         <Grid item xs={12} >
                             <Accordion  elevation={5}  >
                                 <AccordionSummary expandIcon={<ExpandMoreIcon />} >
-                                    <Typography variant="subtitle2" >
+                                    <Typography variant="subtitle1" >
                                         CONOCIMIENTOS
                                     </Typography>
-                                    
                                 </AccordionSummary>
                                 <AccordionDetails>
                                     <div className={classes.root}>
@@ -103,7 +99,7 @@ const CVContainer =  ({datos:{contacto,objetivo,social,educacional,laboral,idiom
                         <Grid item xs={12}>
                             <Accordion  elevation={5}  >
                                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                                    <Typography variant="subtitle2" >
+                                    <Typography variant="subtitle1" >
                                         OTROS INTERESES
                                     </Typography>
                                 </AccordionSummary>

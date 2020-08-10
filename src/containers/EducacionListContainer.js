@@ -1,5 +1,6 @@
 import React from 'react';
 import Educacion from '../components/Educacion';
+import { Typography } from '@material-ui/core';
 
 const EducacionListContainer = ({datos}) => {
     
@@ -8,7 +9,9 @@ const EducacionListContainer = ({datos}) => {
     );
     return (
         <div>
-            {arrayToComponents(datos)}
+            <Typography component={'span'} variant="body1">
+                    {arrayToComponents(datos)}
+            </Typography>
         </div>
     );
 };

@@ -1,5 +1,7 @@
 import React from 'react';
 import Curso from '../components/Curso';
+import {Typography} from '@material-ui/core';
+
 const CursoListContainer = ({datos}) => {
     
     const arrayToComponents = datos => (
@@ -11,7 +13,9 @@ const CursoListContainer = ({datos}) => {
     );
     return (
         <div>
-            {arrayToComponents(datos)}
+            <Typography component={'span'} variant="body1">
+                    {arrayToComponents(datos)}
+            </Typography>
         </div>
     );
 };
