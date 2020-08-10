@@ -1,0 +1,203 @@
+{
+    "personal":
+      {
+        "dni": 30845343,
+        "nombre": "Leandro Daniel",
+        "apellido": "Dosé García",
+        "nacimiento": "1984/03/11",
+        "nacionalidad": "Argentina",
+        "estado": "soltero"
+      },
+      "contacto":
+      {
+        "direccion": "Mariano Castex 235",
+        "residencia": "Córdoba Capital, Argentina",
+        "cp": "5003",
+        "telefono_fijo": "0351 4809604",
+        "telefono_celular": "0351 3477060",
+        "email": "leandrodose@hotmail.com"
+      },
+    "social":
+      {
+        "facebook": "",
+        "intagram": "",
+        "linkedin": ""
+      },
+    "objetivo":"Busco obtener y aportar experiencia dentro de una sólida organización que me permita seguir desarrollando conocimientos en áreas relacionadas con mis estudios",
+    "educacional":
+    [
+        {
+            "desde":"2002",
+            "hasta":"2012",
+            "establecimiento":"Universidad Tecnolgica Nacional (UTN)",
+            "titulo":"Ingeniero en Sistemas de Información"
+        },
+        {
+            "desde":"1995",
+            "hasta":"2002",
+            "establecimiento":"Escuela Superior de Comercio Manuel Belgrano",
+            "titulo":"Bachiller Orientado en Economía y Gestión de las Organizaciones y Técnico Básico en Gestión Organizaciones"
+        }
+    ],
+    "cursos":
+    [
+        {
+            "desde":"2020",
+            "hasta":"2020",
+            "establecimiento":"Municipalidad de Cordoba",
+            "tema":"REACT",
+            "certificado":"Informal",
+            "duracion":"30 horas"
+        },
+        {
+            "desde":"2020",
+            "hasta":"2020",
+            "establecimiento":"Municipalidad de Cordoba",
+            "tema":"BotPress - Machine Learning",
+            "certificado":"Informal",
+            "duracion":"8 horas"
+        },
+        {
+            "desde":"2014",
+            "hasta":"2014",
+            "establecimiento":"VATES",
+            "tema":"Capacitación laboral MVC ASP.NET vinculada al programa de entrenamiento VSP",
+            "certificado":"Informal",
+            "duracion":"2 meses"
+        },
+        {
+            "desde":"2009",
+            "hasta":"2009",
+            "establecimiento":"Colegio Universitario IES Siglo 21 - Becas Control + F",
+            "tema":"",
+            "certificado":"Programador .NET",
+            "duracion":"240 horas"
+        },
+        {
+            "desde":"2008",
+            "hasta":"2008",
+            "establecimiento":"Colegio Universitario IES Siglo 21 - Becas Control + F",
+            "tema":"",
+            "certificado":"Administrador de Base de Datos SQL Server 2005",
+            "duracion":"80 horas"
+        },
+        {
+            "desde":"2007",
+            "hasta":"2008",
+            "establecimiento":"Universidad Tecnológica Nacional (UTN) – Academia Local Oracle",
+            "tema":"",
+            "certificado":"Administrador de Base de Datos Oracle (DBA Oracle)",
+            "duracion":"4 semestres"
+        }
+    ],
+    "idiomas":
+    [
+        {
+            "desde":"2001",
+            "hasta":"2001",
+            "idioma":"Ingles",
+            "establecimiento":"Facultad de Lenguas, Universidad Nacional de Córdoba",
+            "certificado":"equivalente a 4 años de cursado (total 360hs. Cátedra)",
+            "nivel_real":"Intermedio"
+        },
+        {
+            "desde":"1984",
+            "hasta":"actualidad",
+            "idioma":"Castellano",
+            "establecimiento":"",
+            "certificado":"",
+            "nivel_real":"Nativo"
+        }
+    ],
+    "laboral":
+    [
+        {
+            "desde":"2018",
+            "hasta":"actualidad",
+            "empresa":"Municipalidad de Cordoba",
+            "puesto":"Desarrollador de Sistemas – Departamento de Sistemas",
+            "competencias":
+            [
+                "Análisis, desarrollo, implementación y mantenimiento de código Visual Basic 6 y VB.NET sobre una infraestructura de datos SQL SERVER 2005. ",
+                "Responsable del Sistema Salud (Historia Clínica Digital Unica) implementado en todos los Hospitales y Centros de Salud Municipales."
+            ],
+            "contacto": "Palacio 6 de Julio - Marcelo T. de Alvear 120 – Tel: +54 0351 4285600 INT 1550"
+        },
+        {
+            "desde":"2014",
+            "hasta":"2018",
+            "empresa":"AR Consultores - Tercerizado en CLARO",
+            "puesto":"Analista de Sistemas – Soporte de Cobranzas para Argentina, Paraguay y Uruguay",
+            "competencias":
+            [
+                "Análisis de código PLSQL, ProC,  FORMS, Archivos Masivos, en búsqueda de inconvenientes y sus posibles soluciones. ",
+                "Resolución de contingencias diarias en datos transaccionales y objetos de Bases de Datos Oracle 11g. ",
+                "Guardias 24/7."
+            ],
+            "contacto": "Salto 294 – Tel: +54 0351 4521733 – X5004AZF - Córdoba, República Argentina - www.arconsultores.com.ar"
+        },
+        {
+            "desde":"2011",
+            "hasta":"2011",
+            "empresa":"Independiente",
+            "puesto":"Consultor independiente",
+            "competencias":
+            [
+                "Proyecto de implementación del Sistema MHUNC en el Museo Histórico de la UNC. Desarrollo y Redes. "
+            ],
+            "contacto": ""
+        },
+        {
+            "desde":"2010",
+            "hasta":"2010",
+            "empresa":"Eg & Asociados",
+            "puesto":"Pasante",
+            "competencias":
+            [
+                "Desarrollador Junior .Net en el marco de las PPS – ERP Módulo Gestión de Tarjetas de Crédito."
+            ],
+            "contacto": "Bv. Las Heras 715-PA – Centro – Córdoba Capital"
+        },
+        {
+            "desde":"2007",
+            "hasta":"2008",
+            "empresa":"Cohen Sistemas - Tercerizado en CLARO",
+            "puesto":"Desarrollador Junior PL/SQL.",
+            "competencias":
+            [
+                "Migracion de proyectos funcionales desarrollados en PHP a Forms & Reports."
+            ],
+            "contacto": "Av. Maipú 479 – Centro – Córdoba Capital"
+        }
+    ],
+    "hobbies":
+    [   
+        "Guitarra",
+        "Canto",
+        "eSports",
+        "Tango",
+        "Salsa",
+        "Danza Clásica",
+        "Viajes",
+        "Mascotas"
+    ],
+    "conocimientos":
+    [   
+        "PL/SQL",
+        "ORACLE - DBA",
+        "SQL Server – DBA",
+        "SQLite",
+        "Navicat",
+        "Visual Basic 6.0",
+        "WebForm ASP.NET",
+        "MVC ASP.NET",
+        "LINQ",
+        "Web Services",
+        "JavaScript",
+        "VSCode",
+        "REACT",
+        "Material UI"
+    ]
+
+  }
+  
