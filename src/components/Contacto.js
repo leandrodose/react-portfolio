@@ -4,6 +4,8 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn'; 
 import FacebookIcon from '@material-ui/icons/Facebook';
 import IconButton from '@material-ui/core/IconButton';
+import imgPerfil from '../images/imgPerfil.jpg';
+
 const useStyles= makeStyles(
     {
         md:{
@@ -25,7 +27,7 @@ const Contacto = ({datos,objetivo,social}) => {
     return (
         <div >
             <Box display="flex" justifyContent="center" >
-                <Avatar alt="imgContacto"   className={classes.lg} src="/images/imgPerfil.jpg" />
+                <Avatar alt="imgContacto"   className={classes.lg} src={imgPerfil} />
             </Box>
             <Box className={classes.center}  m={1} justifyContent="center">
                  {objetivo}
