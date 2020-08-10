@@ -1,7 +1,7 @@
 {
     "personal":
       {
-        "dni": 30845343,
+        "dni": "*******",
         "nombre": "Leandro Daniel",
         "apellido": "Dosé García",
         "nacimiento": "1984/03/11",
@@ -10,18 +10,18 @@
       },
       "contacto":
       {
-        "direccion": "Mariano Castex 235",
+        "direccion": "********",
         "residencia": "Córdoba Capital, Argentina",
         "cp": "5003",
-        "telefono_fijo": "0351 4809604",
+        "telefono_fijo": "********",
         "telefono_celular": "0351 3477060",
         "email": "leandrodose@hotmail.com"
       },
     "social":
       {
-        "facebook": "",
-        "intagram": "",
-        "linkedin": ""
+        "facebook": "https://www.facebook.com/leandro.dose",
+        "instagram": "https://www.instagram.com/leandro.dose",
+        "linkedin": "https://www.linkedin.com/in/leandro-dose-85897891/"
       },
     "objetivo":"Busco obtener y aportar experiencia dentro de una sólida organización que me permita seguir desarrollando conocimientos en áreas relacionadas con mis estudios",
     "educacional":
@@ -95,9 +95,9 @@
         {
             "desde":"2001",
             "hasta":"2001",
-            "idioma":"Ingles",
+            "idioma":"Inglés",
             "establecimiento":"Facultad de Lenguas, Universidad Nacional de Córdoba",
-            "certificado":"equivalente a 4 años de cursado (total 360hs. Cátedra)",
+            "certificado":"Equivalente a 4 años de cursado (total 360hs. Cátedra)",
             "nivel_real":"Intermedio"
         },
         {
@@ -113,7 +113,7 @@
     [
         {
             "desde":"2018",
-            "hasta":"actualidad",
+            "hasta":"Actualidad",
             "empresa":"Municipalidad de Cordoba",
             "puesto":"Desarrollador de Sistemas – Departamento de Sistemas",
             "competencias":

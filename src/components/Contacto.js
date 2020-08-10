@@ -20,7 +20,7 @@ const useStyles= makeStyles(
     }
 )
 
-const Contacto = ({datos,objetivo}) => {
+const Contacto = ({datos,objetivo,social}) => {
     const classes = useStyles();
     return (
         <div >
@@ -40,13 +40,13 @@ const Contacto = ({datos,objetivo}) => {
                  {datos.residencia}
             </Box>
             <Box display="flex" justifyContent="center" >
-                <IconButton href="https://www.facebook.com/leandro.dose" >
+                <IconButton href= {social.facebook} >
                     <FacebookIcon />
                 </IconButton>
-                <IconButton href="https://www.instagram.com/leandro.dose">
+                <IconButton href={social.instagram}>
                     <InstagramIcon/>
                 </IconButton>
-                <IconButton href="https://www.linkedin.com/in/leandro-dose-85897891/">
+                <IconButton href={social.linkedin}>
                     <LinkedInIcon/>
                 </IconButton>
             </Box>

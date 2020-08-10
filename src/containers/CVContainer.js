@@ -11,7 +11,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { makeStyles } from '@material-ui/core/styles';
 
 
-const CVContainer =  ({datos:{contacto,objetivo,educacional,laboral,idiomas,cursos,conocimientos,hobbies}})  => {
+const CVContainer =  ({datos:{contacto,objetivo,social,educacional,laboral,idiomas,cursos,conocimientos,hobbies}})  => {
     
     const useStyles = makeStyles((theme) => ({
         root: {width: '100%'}
@@ -27,7 +27,7 @@ const CVContainer =  ({datos:{contacto,objetivo,educacional,laboral,idiomas,curs
                 <Grid item sm={12} md={4}>
                     <Grid container spacing={3}>
                         <Grid item xs={12}>
-                            <Contacto datos={contacto} objetivo={objetivo} />
+                            <Contacto datos={contacto} objetivo={objetivo} social={social} />
                         </Grid>
                     </Grid>
                 </Grid>
