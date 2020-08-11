@@ -22,7 +22,7 @@ const useStyles= makeStyles(
     }
 )
 
-const Contacto = ({datos,objetivo,social}) => {
+const Contacto = ({datos,presentacion,social}) => {
     const classes = useStyles();
     return (
         <div >
@@ -31,7 +31,7 @@ const Contacto = ({datos,objetivo,social}) => {
                     <Avatar alt="imgContacto"   className={classes.lg} src={imgPerfil} />
                 </Box>
                 <Box className={classes.center}  m={1} justifyContent="center">
-                    {objetivo}
+                    {presentacion}
                 </Box>
                 <Box className={classes.center} m={1}>
                     {datos.telefono_celular}
