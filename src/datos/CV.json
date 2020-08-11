@@ -14,7 +14,7 @@
         "residencia": "Córdoba Capital, Argentina",
         "cp": "5003",
         "telefono_fijo": "********",
-        "telefono_celular": "0351 3477060",
+        "telefono_celular": "0351-3477060",
         "email": "leandrodose@hotmail.com"
       },
     "social":
@@ -84,7 +84,7 @@
         {
             "desde":"2007",
             "hasta":"2008",
-            "establecimiento":"Universidad Tecnológica Nacional (UTN) – Academia Local Oracle",
+            "establecimiento":"Universidad Tecnológica Nacional (UTN) - Academia Local Oracle",
             "tema":"",
             "certificado":"Administrador de Base de Datos Oracle (DBA Oracle)",
             "duracion":"4 semestres"
@@ -115,26 +115,26 @@
             "desde":"2018",
             "hasta":"Actualidad",
             "empresa":"Municipalidad de Cordoba",
-            "puesto":"Desarrollador de Sistemas – Departamento de Sistemas",
+            "puesto":"Desarrollador de Sistemas / Departamento de Sistemas",
             "competencias":
             [
                 "Análisis, desarrollo, implementación y mantenimiento de código Visual Basic 6 y VB.NET sobre una infraestructura de datos SQL SERVER 2005. ",
                 "Responsable del Sistema Salud (Historia Clínica Digital Unica) implementado en todos los Hospitales y Centros de Salud Municipales."
             ],
-            "contacto": "Palacio 6 de Julio - Marcelo T. de Alvear 120 – Tel: +54 0351 4285600 INT 1550"
+            "contacto": "Palacio 6 de Julio - Marcelo T. de Alvear 120 - Tel: +54 0351 4285600 INT 1550"
         },
         {
             "desde":"2014",
             "hasta":"2018",
             "empresa":"AR Consultores - Tercerizado en CLARO",
-            "puesto":"Analista de Sistemas – Soporte de Cobranzas para Argentina, Paraguay y Uruguay",
+            "puesto":"Analista de Sistemas / Soporte de Cobranzas para Argentina, Paraguay y Uruguay",
             "competencias":
             [
                 "Análisis de código PLSQL, ProC,  FORMS, Archivos Masivos, en búsqueda de inconvenientes y sus posibles soluciones. ",
                 "Resolución de contingencias diarias en datos transaccionales y objetos de Bases de Datos Oracle 11g. ",
                 "Guardias 24/7."
             ],
-            "contacto": "Salto 294 – Tel: +54 0351 4521733 – X5004AZF - Córdoba, República Argentina - www.arconsultores.com.ar"
+            "contacto": "Salto 294 - Tel: +54 0351 4521733 – X5004AZF - Córdoba, República Argentina - www.arconsultores.com.ar"
         },
         {
             "desde":"2011",
@@ -154,7 +154,7 @@
             "puesto":"Pasante",
             "competencias":
             [
-                "Desarrollador Junior .Net en el marco de las PPS – ERP Módulo Gestión de Tarjetas de Crédito."
+                "Desarrollador Junior .Net en el marco de las PPS. ERP Módulo Gestión de Tarjetas de Crédito."
             ],
             "contacto": "Bv. Las Heras 715-PA – Centro – Córdoba Capital"
         },
@@ -167,7 +167,7 @@
             [
                 "Migracion de proyectos funcionales desarrollados en PHP a Forms & Reports."
             ],
-            "contacto": "Av. Maipú 479 – Centro – Córdoba Capital"
+            "contacto": "Av. Maipú 479 - Centro - Córdoba Capital"
         }
     ],
     "hobbies":
@@ -185,7 +185,7 @@
     [   
         "PL/SQL",
         "ORACLE - DBA",
-        "SQL Server – DBA",
+        "SQL Server - DBA",
         "SQLite",
         "Navicat",
         "Visual Basic 6.0",
