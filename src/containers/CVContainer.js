@@ -1,3 +1,5 @@
+
+
 import React from 'react';
 import Contacto from '../components/Contacto';
 import EducacionListContainer from './EducacionListContainer';
@@ -9,7 +11,7 @@ import HobbieListContainer from './HobbieListContainer';
 import {Grid , Typography , Accordion , AccordionSummary , AccordionDetails} from '@material-ui/core';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { makeStyles } from '@material-ui/core/styles';
-
+import './accordion.css';
 
 const CVContainer =  ({datos:{contacto,presentacion,social,educacional,laboral,idiomas,cursos,conocimientos,hobbies}})  => {
     
@@ -32,10 +34,10 @@ const CVContainer =  ({datos:{contacto,presentacion,social,educacional,laboral,i
                     </Grid>
                 </Grid>
                 <Grid item sm={12} md={8}>
-                    <Grid container spacing={3} >
+                    <Grid container spacing={3}  >
                         <Grid item xs={12}>
-                            <Accordion elevation={5}  >
-                                <AccordionSummary  expandIcon={<ExpandMoreIcon />}    >
+                            <Accordion elevation={5} className="accordion" >
+                                <AccordionSummary  expandIcon={<ExpandMoreIcon />}  >
                                     <Typography   variant="subtitle1" >
                                         FORMACIÓN
                                     </Typography>
@@ -46,7 +48,7 @@ const CVContainer =  ({datos:{contacto,presentacion,social,educacional,laboral,i
                             </Accordion>
                         </Grid>
                         <Grid item xs={12}>
-                            <Accordion elevation={5} >
+                            <Accordion elevation={5} className="accordion"  >
                                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                                     <Typography variant="subtitle1" >
                                         IDIOMAS
@@ -59,7 +61,7 @@ const CVContainer =  ({datos:{contacto,presentacion,social,educacional,laboral,i
                             </Accordion>
                         </Grid>
                         <Grid item xs={12}>
-                            <Accordion elevation={5} >
+                            <Accordion elevation={5}  className="accordion" >
                                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                                     <Typography variant="subtitle1" >
                                         EXPERIENCIA LABORAL
@@ -71,7 +73,7 @@ const CVContainer =  ({datos:{contacto,presentacion,social,educacional,laboral,i
                             </Accordion>
                         </Grid>
                         <Grid item xs={12}>
-                            <Accordion elevation={5} >  
+                            <Accordion elevation={5}  className="accordion">  
                                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                                     <Typography variant="subtitle1" >
                                         CURSOS
@@ -83,7 +85,7 @@ const CVContainer =  ({datos:{contacto,presentacion,social,educacional,laboral,i
                             </Accordion>
                         </Grid>
                         <Grid item xs={12} >
-                            <Accordion  elevation={5}  >
+                            <Accordion  elevation={5}  className="accordion" >
                                 <AccordionSummary expandIcon={<ExpandMoreIcon />} >
                                     <Typography variant="subtitle1" >
                                         CONOCIMIENTOS
@@ -97,7 +99,7 @@ const CVContainer =  ({datos:{contacto,presentacion,social,educacional,laboral,i
                             </Accordion>
                         </Grid>
                         <Grid item xs={12}>
-                            <Accordion  elevation={5}  >
+                            <Accordion  elevation={5}  className="accordion"  >
                                 <AccordionSummary expandIcon={<ExpandMoreIcon />}>
                                     <Typography variant="subtitle1" >
                                         OTROS INTERESES
@@ -105,7 +107,7 @@ const CVContainer =  ({datos:{contacto,presentacion,social,educacional,laboral,i
                                 </AccordionSummary>
                                 <AccordionDetails  >
                                     <div className={classes.root}>
-                                        <HobbieListContainer datos={hobbies}/>                                    
+                                        <HobbieListContainer datos={hobbies}  className="accordion"  />
                                     </div>
                                 </AccordionDetails>
                             </Accordion>

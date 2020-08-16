@@ -2,6 +2,7 @@ import React from 'react';
 import Hobbie from '../components/Hobbie';
 import { Grid,Typography } from '@material-ui/core';
 
+
 const HobbieListContainer = ({datos}) => {
     const arrayToComponents = datos => (
         datos.map( dato => 
@@ -11,9 +12,9 @@ const HobbieListContainer = ({datos}) => {
     );
     
     return (
-        <div >
+        <div  >
             <Typography component={'span'} variant="body1"> 
-                <Grid container spacing={2} >
+                <Grid container spacing={2}    >
                     {arrayToComponents(datos)}
                 </Grid>
             </Typography>                            

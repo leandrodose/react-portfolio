@@ -1,0 +1,12 @@
+.agrandar:hover {
+    animation: agrandarScale 0.3s 1 linear both ;
+  }
+@keyframes agrandarScale{
+    from{
+        transform:scale(1);
+    }
+    to{
+        transform:scale(1.4);
+
+    }
+}

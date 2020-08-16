@@ -1,0 +1,53 @@
+.avatar{
+    animation: avatarRespira 2.3s infinite linear alternate ;
+} 
+
+/* .avatar:active{
+    animation: avatarRotation 0.2s infinite linear;
+}  */
+
+@keyframes avatarRotation{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(359deg);
+
+    }
+}
+@keyframes avatarRespira{
+    from{
+        transform:scale(1);
+    }
+    to{
+        transform:scale(1.05);
+    }
+}
+
+@media screen and (min-width:962px) {
+	@keyframes rota {
+        from{
+            transform:rotate(359deg);
+        }
+        to{
+            transform:rotate(0deg);
+        }
+    }
+    .avatarDiv{
+        animation: rota 0.2s 1 linear ;
+    } 
+}
+
+@media screen and (max-width:958px) {
+	@keyframes rota {
+        from{
+            transform:rotate(0deg);
+        }
+        to{
+            transform:rotate(359deg);
+        }
+    }
+    .avatarDiv{
+        animation: rota 0.2s 1 linear ;
+    } 
+}

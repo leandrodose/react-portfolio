@@ -24,13 +24,13 @@
         "linkedin": "https://www.linkedin.com/in/leandro-dose-85897891/"
       },
     "objetivo":"Busco compartir e incorporar experiencia dentro de una sólida organización que me permita seguir desarrollando conocimientos en áreas relacionadas con mis estudios.",
-    "presentacion":"Hola! Soy Leandro, y estoy en la busqueda de experiencias profesionales que me permitan seguir desarrollando y compartiendo conocimiento en areas relacionadas con mis estudios.",
+    "presentacion":"Hola! Soy Leandro, y estoy en la búsqueda de experiencias profesionales que me permitan seguir desarrollando y compartiendo conocimiento en áreas relacionadas con mis estudios.",
     "educacional":
     [
         {
             "desde":"2002",
             "hasta":"2012",
-            "establecimiento":"Universidad Tecnolgica Nacional (UTN)",
+            "establecimiento":"Universidad Tecnológica Nacional (UTN)",
             "titulo":"Ingeniero en Sistemas de Información"
         },
         {
@@ -45,7 +45,7 @@
         {
             "desde":"2020",
             "hasta":"2020",
-            "establecimiento":"Municipalidad de Cordoba",
+            "establecimiento":"Municipalidad de Córdoba",
             "tema":"REACT",
             "certificado":"Informal",
             "duracion":"30 horas"
@@ -53,7 +53,7 @@
         {
             "desde":"2020",
             "hasta":"2020",
-            "establecimiento":"Municipalidad de Cordoba",
+            "establecimiento":"Municipalidad de Córdoba",
             "tema":"BotPress - Machine Learning",
             "certificado":"Informal",
             "duracion":"8 horas"
@@ -103,7 +103,7 @@
         },
         {
             "desde":"1984",
-            "hasta":"actualidad",
+            "hasta":"Actualidad",
             "idioma":"Castellano",
             "establecimiento":"",
             "certificado":"",
@@ -141,7 +141,7 @@
             "desde":"2011",
             "hasta":"2011",
             "empresa":"Independiente",
-            "puesto":"Consultor independiente",
+            "puesto":"Consultor Independiente",
             "competencias":
             [
                 "Proyecto de implementación del Sistema MHUNC en el Museo Histórico de la UNC. Desarrollo y Redes. "

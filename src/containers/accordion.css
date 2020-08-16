@@ -1,0 +1,14 @@
+.accordion:hover{
+    animation: cambioColor 0.4s 2 linear alternate;
+}
+
+@keyframes cambioColor{
+    from{
+        background-color: background-color;
+        color: color;
+    }
+    to{
+        background-color: #626262;
+        color : #fff;
+    }
+}

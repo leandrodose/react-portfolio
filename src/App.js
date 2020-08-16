@@ -9,6 +9,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
+import './iconos.css';
 
 function App () {
   const [darkMode, setDarkMode] = useState(true)
@@ -16,7 +17,7 @@ function App () {
     palette:{
       type: darkMode ? "dark": "light",
       primary:{main:"#616161"}, 
-      secondary:{main:"#616161"} 
+      secondary:{main:"#616161"}
     }
   })
   const handleDarkMode = ()=>{
@@ -31,7 +32,7 @@ function App () {
       [theme.breakpoints.up("md")]:{textAlign:"left"}
     },
     offset: theme.mixins.toolbar,
-  }));
+      }));
   
   const classes = useStyles();
 
@@ -39,14 +40,14 @@ function App () {
     <div  >
       <CssBaseline/>
       <ThemeProvider theme = {theme}> 
-        <Paper elevation={10}> 
+        <Paper elevation={10}  > 
           <AppBar position="sticky"  color="secondary"   elevation={5}  > 
               <Toolbar>
                   <Typography variant="h4" className={classes.title}  >
                     {Data.personal.nombre} {Data.personal.apellido}
                   </Typography>
                   <IconButton onClick = {handleDarkMode}  >
-                      <Brightness4OutlinedIcon />
+                      <Brightness4OutlinedIcon className="agrandar" />
                   </IconButton>
               </Toolbar>
           </AppBar>

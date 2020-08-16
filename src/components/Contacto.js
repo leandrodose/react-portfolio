@@ -5,16 +5,18 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import IconButton from '@material-ui/core/IconButton';
 import imgPerfil from '../images/imgPerfil.jpg';
+import './avatar.css';
+import '../iconos.css';
 
 const useStyles= makeStyles(
     {
         md:{
-            width:80,
-            height:80
+            width:120,
+            height:120
         },
         lg:{
             width:200,
-            height:200
+            height:200,
         },
         center:{
             textAlign:'center'
@@ -28,9 +30,14 @@ const Contacto = ({datos,presentacion,social}) => {
         <div >
             <Typography component={'span'} variant="body1">
                 <Box display="flex" justifyContent="center" >
-                    <Avatar alt="imgContacto"   className={classes.lg} src={imgPerfil} />
+                    <div className="avatarDiv">
+                        <Avatar alt="imgContacto"   
+                                className={`${classes.lg} ${'avatar'}` }  
+                                src={imgPerfil} 
+                                />
+                    </div>
                 </Box>
-                <Box className={classes.center}  m={1} justifyContent="center">
+                <Box  className={classes.center}  m={1} justifyContent="center">
                     {presentacion}
                 </Box>
                 <Box className={classes.center} m={1}>
@@ -43,14 +50,14 @@ const Contacto = ({datos,presentacion,social}) => {
                     {datos.residencia}
                 </Box>
                 <Box display="flex" justifyContent="center" >
-                    <IconButton href= {social.facebook} target="_blank" >
-                        <FacebookIcon />
+                    <IconButton  href= {social.facebook} target="_blank" >
+                        <FacebookIcon className="agrandar"/>
                     </IconButton>
                     <IconButton href={social.instagram} target="_blank">
-                        <InstagramIcon/>
+                        <InstagramIcon className="agrandar"/>
                     </IconButton>
                     <IconButton href={social.linkedin} target="_blank">
-                        <LinkedInIcon/>
+                        <LinkedInIcon className="agrandar"/>
                     </IconButton>
                 </Box>
             </Typography>
