@@ -1,5 +1,5 @@
 .accordion:hover{
-    animation: cambioColor 0.4s 2 linear alternate;
+    animation: cambioColor 0.5s 2 linear alternate;
 }
 
 @keyframes cambioColor{

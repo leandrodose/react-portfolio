@@ -1,5 +1,5 @@
 .agrandar:hover {
-    animation: agrandarScale 0.3s 1 linear both ;
+    animation: agrandarScale 0.5s 2 linear alternate ;
   }
 @keyframes agrandarScale{
     from{
@@ -7,6 +7,5 @@
     }
     to{
         transform:scale(1.4);
-
     }
 }
